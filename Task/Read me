@@ -1,0 +1,23 @@
+Read me
+
+1. Videstream.py 
+
+	Libraries Used : pygame, pyQt4
+
+	Description : On running this program through the terminal, the program opens a live streaming camera which can capture an image named 'capture.jpg'. this image can be modified using the below mentioned scripts.
+
+2. gsconvert.py
+
+	Libraries used : cv2
+
+	Description : converts the 'capture.jpg' into greyscale named 'grey.jpg'
+
+3. slice.py
+
+	Libraries used : cv2 and PIL
+
+	Description : slices the 'grey.jpg' into equal sized 'n' numbered images.
+
+PIL is used in the 3rd script for getting the width and height. If not possible you can manually enter the width and height and comment the PIL lines.
+
+I have used 3 different scripts so that i can easily embedd them into an GUI.
